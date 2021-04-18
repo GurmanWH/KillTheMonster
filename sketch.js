@@ -19,7 +19,7 @@ function setup() {
   ground = new Ground(600, 600, 1200, 20);
 
   hero = new Hero(400,800,250);
-  rope = new Rope(hero.body, { x: 500, y: 50 });
+  rope = new Rope(hero.body, { x: 10, y: 40 });
   monster = new Monster(1100,550,300);
 
   box1 = new Box(600, 100, 70, 70);
@@ -32,8 +32,7 @@ function setup() {
   box8 = new Box(600,100,70,70);
   box9 = new Box(600, 100, 70, 70);
   box10 = new Box(500,150,70,70);
-  box11 = new Box(200,180,70,70);
-  box12 = new Box(800,100,70,70);
+ 
  
 
 
@@ -53,8 +52,7 @@ function draw() {
   box8.display();
   box9.display();
   box10.display();
-  box11.display();
-  box12.display();
+  
   
 
   hero.display();
